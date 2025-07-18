@@ -1,0 +1,62 @@
+body {
+    background-color: #B5CB99;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mooli', sans-serif;
+}
+
+#container {
+    background-color: #FCE09B;
+    margin: 20px;
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #B2533E;
+}
+
+button {
+    background-color: #186F65;
+    color:#FCE09B;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Mooli', sans-serif;
+    font-weight: bolder;
+}
+
+#amount {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.amount {
+    background-color: #B5CB99;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+input, select {
+    padding: 5px;
+    font-family: 'Mooli', sans-serif;
+}
+
+#tip {
+    display: none;
+}
